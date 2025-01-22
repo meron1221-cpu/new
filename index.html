@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding planner website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <a href="#" class="logo">
+        <i class="fas fa-heart"></i>&nbsp;Wed <span>Me</span>Good&nbsp;
+        <i class="fas fa-heart"></i>
+      </a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#service">Service</a>
+        <a href="#vendor">Vendor</a>
+        <a href="#venue">Venue</a>
+        <a href="#invite">E-Invite</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div id="menu-bar" role="button" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <!----------------------------------------Home ------------------------------------------------------->
+    <section id="home" class="home">
+      <form action="#">
+        <div class="search-box">
+          <h1>Your Wedding, Your Way</h1>
+          <p>Find The Best Wedding Vendors With Thousands Of Trusted Reviews</p>
+          <select
+            name="vendorType"
+            class="search-field"
+            aria-label="Select Vendor Type"
+          >
+            <option disabled selected>Select Vendor Type</option>
+            <option value="Wedding Venues">Wedding Venues</option>
+            <option value="Family Makeup">Family Makeup</option>
+            <option value="Bridal Makeup">Bridal Makeup</option>
+            <option value="Groom Wear">Groom Wear</option>
+            <option value="Wedding Decoration">Wedding Decoration</option>
+          </select>
+
+          <select name="city" class="search-field" aria-label="Select City">
+            <option disabled selected>City</option>
+            <option value="Addis Ababa">Addis Ababa</option>
+            <option value="Hawasa">Hawasa</option>
+            <option value="Debre Berhan">Debre Berhan</option>
+            <option value="Adama">Adama</option>
+            <option value="Dire Dawa">Dire Dawa</option>
+          </select>
+          <button class="btn">Search</button>
+        </div>
+      </form>
+    </section>
+
+    <!-------------------------------------services--------------------------->
+    <section class="service" id="service">
+      <div class="title">
+        <h1><span>S</span>ervice</h1>
+      </div>
+      <div class="services-row">
+        <div class="services-col">
+          <i class="fas fa-book-open"></i>
+          <h2>Invitation</h2>
+          <p>Your Story Begins Here</p>
+          <p>
+            Set the tone for your celebration with beautifully crafted
+            invitations that invite your loved ones to share in your joy.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-camera"></i>
+          <h2>Photography & Video</h2>
+          <p>Capture Every Moment</p>
+          <p>
+            Relive your special day through stunning visuals that tell your love
+            story.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-brush"></i>
+          <h2>Beauty & Makeup</h2>
+          <p>Radiate Confidence</p>
+          <p>
+            Enhance your natural beauty with expert makeup that ensures you
+            shine on your big day.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fab fa-pagelines"></i>
+          <h2>Wedding Flowers</h2>
+          <p>Nature’s Elegance</p>
+          <p>
+            Infuse your wedding with vibrant blooms that embody your theme and
+            enhance the romance.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-birthday-cake"></i>
+          <h2>Wedding Cake</h2>
+          <p>Sweet Perfection</p>
+          <p>
+            Indulge in a delicious masterpiece that not only looks stunning but
+            tastes unforgettable.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-music"></i>
+          <h2>Music Band</h2>
+          <p>The Soundtrack of Love</p>
+          <p>
+            Create the perfect ambiance with live music that elevates every
+            moment of your celebration.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-utensils"></i>
+          <h2>Catering</h2>
+          <p>A Culinary Journey</p>
+          <p>
+            Delight your guests with a delectable menu that reflects your tastes
+            and adds flavor to your festivities.
+          </p>
+        </div>
+
+        <div class="services-col">
+          <i class="fas fa-ring"></i>
+          <h2>Jewellery</h2>
+          <p>Sparkle and Shine</p>
+          <p>
+            Adorn yourself with exquisite pieces that reflect your unique style
+            and love.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------Testimonials Section--------------------------->
+    <section class="testimonials">
+      <div class="title">
+        <h1><span>T</span>estimonials</h1>
+      </div>
+      <div class="testimonial-container">
+        <blockquote>
+          <p>"The best wedding planning experience! Highly recommend!"</p>
+          <footer>- Mekdi</footer>
+        </blockquote>
+        <blockquote>
+          <p>"Our day was perfect, thanks to the amazing vendors!"</p>
+          <footer>- Meron</footer>
+        </blockquote>
+        <blockquote>
+          <p>"An unforgettable experience with a fantastic team!"</p>
+          <footer>- Fuad</footer>
+        </blockquote>
+        <blockquote>
+          <p>"Everything was organized beautifully. We couldn't be happier!"</p>
+          <footer>- Beza</footer>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+      </div>
+    </section>
+
+    <!---------------------------------------------vendor---------------------------->
+    <section class="vendor" id="vendor">
+      <div class="title">
+        <h1><span>F</span>eatured <span>V</span>endor</h1>
+      </div>
+      <div class="vendor-list">
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding3.jpg" alt="" />
+          <h2>Beauty Tales by Meron Nisrane</h2>
+          <p>Bridal Makeup</p>
+          <h3>10,000 onwards</h3>
+        </div>
+
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding4.jpg" alt="" />
+          <h2>Flinters Management</h2>
+          <p>Wedding Planner</p>
+          <h3>20,000</h3>
+        </div>
+
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding6.jpg" alt="" />
+          <h2>Wedding Mela</h2>
+          <p>Wedding Decorator</p>
+          <h3>15,000-30,000</h3>
+        </div>
+
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding5.jpg" alt="" />
+          <h2>Heaven Wedding Company</h2>
+          <p>Wedding Decorators-Rental only</p>
+          <h3>10,000 Onwards</h3>
+        </div>
+
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding7.jpg" alt="img" />
+          <h2>Wedding Melon</h2>
+          <p>Wedding Decorator</p>
+          <h3>30,000</h3>
+        </div>
+
+        <div class="vendor-row">
+          <div class="rate">4.5&nbsp; <i class="fas fa-star"></i></div>
+          <img src="wedding14.jpg" alt="img" />
+          <h2>Wedding Mela</h2>
+          <p>Wedding Decorator</p>
+          <h3>5000</h3>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------------------venue section------------------------>
+    <section class="venue" id="venue">
+      <div class="title">
+        <h1><span>V</span>enues</h1>
+        <div class="venue-list">
+          <div class="venue-box">
+            <img src="wedding8.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Ethiopia</h2>
+              <p>Capital Hotel, Addis Ababa</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+
+          <div class="venue-box">
+            <img src="wedding9.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Los Angeles</h2>
+              <p>Heiniken Resort, Hawasa</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+
+          <div class="venue-box">
+            <img src="wedding10.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Ethiopia</h2>
+              <p>Getva Hotel, Debre Berhan</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+
+          <div class="venue-box">
+            <img src="wedding11.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Ethiopia</h2>
+              <p>Meron Hotel, Bahir Dar</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+
+          <div class="venue-box">
+            <img src="wedding12.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Korea</h2>
+              <p>Blue Ivy, seoul</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+
+          <div class="venue-box">
+            <img src="wedding13.jpg" alt="img" />
+            <div class="venue-info">
+              <h2>Ethiopia</h2>
+              <p>Bernos Hotel,Debre Berhan</p>
+              <button class="btn">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------E-Invitation section------------------------------>
+    <section class="invite" id="invite">
+      <div class="title">
+        <h1>Card<span>Design</span></h1>
+        <p>Choose The Best Card Design.</p>
+      </div>
+      <div class="invitation-row">
+        <div class="invitation-box">
+          <img src="wedding4.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding1.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding4.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding2.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding10.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding8.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding9.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding14.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding13.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding12.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding10.jpg" alt="" />
+        </div>
+
+        <div class="invitation-box">
+          <img src="wedding11.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------footer section--------------------------->
+    <footer id="contact">
+      <div class="container">
+        <div class="f-container">
+          <h2>WedMeGood - Your Personal Wedding Planner</h2>
+          <p>Plan Your Wedding With Us</p>
+          <div>
+            <button class="btn">Register As A Vendor</button>
+          </div>
+          <div class="social">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Pinterest"
+              ><i class="fab fa-pinterest"></i
+            ></a>
+          </div>
+        </div>
+        <div class="f-container">
+          <h2>Our Location</h2>
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-angle-right"></i>Addis Ababa</a>
+            </li>
+            <!-- Additional locations here -->
+          </ul>
+        </div>
+        <div class="f-container">
+          <h2>Our News Letter</h2>
+          <p>Subscribe for the latest updates</p>
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            aria-label="Email Subscription"
+          />
+          <button class="btn">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    let menu = document.querySelector("#menu-bar");
+    let head = document.querySelector(".head .navbar");
+    menu.onclick = () => {
+      head.classList.toggle("active");
+    };
+
+    window.onscroll = () => {
+      head.classList.remove("active");
+      if (window.scrollY > 60) {
+        document.querySelector("#menu-bar").classList.add("active");
+      } else {
+        document.querySelector("#menu-bar").classList.remove("active");
+      }
+    };
+  </script>
+</html>
